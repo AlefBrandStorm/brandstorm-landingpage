@@ -21,6 +21,8 @@ export default function Home() {
         <p style={{ fontWeight: 'normal', fontSize: 20 }}>A solução que você precisa está mais perto do que imagina...</p>
         <p style={{ fontWeight: 'lighter', fontSize: 18 }}>Acompanhe nossas redes sociais para mais detalhes do lançamento da solução que sua empresa precisa!</p>
       </div> */}
+      {/* <CustomCursor /> */}
+      {/* <CustomCursor /> */}
       <HomeSection />
       <AboutSection />
       <PortfolioSection />
