@@ -30,7 +30,7 @@
 
 .title {
     color: #FFFFFF;
-    font-size: 3em;
+    font-size: 3.5em;
 }
 
 .button {
@@ -42,4 +42,20 @@
     font-weight: 600;
     border-radius: 8px;
     max-width: fit-content;
+}
+
+.logo {
+    position: absolute;
+    right: 0;
+    top: 20vh * 2;
+    animation: scaleAndMove 10s infinite;
+}
+
+@keyframes scaleAndMove {
+    0%, 100% {
+        transform: translateY(60px) translateX(60px) scale(0.9);
+    }
+    50% {
+        transform: translateY(-60px) translateX(60px) scale(1.3);
+    }
 }
