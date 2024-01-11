@@ -1,12 +1,10 @@
 .main {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  padding: 6rem;
-  min-height: 100vh;
   background-color: #121212;
   color: #FFFFFF;
-  gap: 40px;
 }
 
 .logo {

@@ -3,7 +3,7 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer style={{ display: 'flex', justifyContent: 'space-evenly', alignItems: 'center', padding: '20px', backgroundColor: '#1C1C1C', width: '100%', position: 'fixed', bottom: 0 }}>
+    <footer style={{ display: 'flex', justifyContent: 'space-evenly', alignItems: 'center', padding: '20px', backgroundColor: '#1C1C1C', width: '100%' }}>
       <div>
         <Image
           src="/logo.svg"
