@@ -35,7 +35,20 @@
     text-align: center;
 }
 
-.cardContainer {
+.cardContainerBlack {
+    background-color: #121212;
+    color: #FFFFFF;
+    padding: 16px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    transition: 0.4s ease all;
+}
+
+.cardContainerWhiteBlack {
     background-color: #FFFFFF;
     color: #121212;
     padding: 16px;
@@ -48,8 +61,36 @@
     transition: 0.4s ease all;
 }
 
-.cardContainer:hover {
+.cardContainerPink {
+    background-color: #F35A79;
+    color: #FFFFFF;
+    padding: 16px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    transition: 0.4s ease all;
+}
+
+.cardContainerWhitePink {
+    background-color: #FFFFFF;
     color: #F35A79;
+    padding: 16px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    transition: 0.4s ease all;
+}
+
+.cardContainerBlack:hover,
+.cardContainerWhiteBlack:hover,
+.cardContainerPink:hover,
+.cardContainerWhitePink:hover {
     transform: scale(1.2);
     box-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.15);
     transition: 0.4s ease all;
@@ -57,9 +98,6 @@
 
 .cardTitle {
     font-weight: bold;
-}
-
-.cardDescription {
 }
 
 .title {

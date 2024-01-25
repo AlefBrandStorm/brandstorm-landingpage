@@ -1,20 +1,28 @@
 .container {
     display: flex;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     justify-content: center;
     align-items: center;
-    background-color: #121212;
+    background-color: #F7F7F7;
     padding: 0;
     min-height: 100vh;
-    overflow: hidden;
-    position: relative;
+    flex-direction: column;
+    gap: 8rem;
+}
+
+.contentContainer {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    gap: 8rem;
 }
 
 .content {
     display: flex;
-    width: 60%;
     gap: 40px;
+    justify-content: center;
+    align-items: center;
 }
 
 .imageContainer {
@@ -29,11 +37,13 @@
     flex-direction: column;
     width: 100%;
     gap: 24px;
+    color: #121212;
 }
 
 .title {
-    color: #FFFFFF;
+    color: #121212;
     font-size: 3.5em;
+    text-align: center;
 }
 
 .button {
@@ -47,21 +57,30 @@
     max-width: fit-content;
 }
 
-.logo {
-    position: absolute;
-    right: -20%;
-    top: 20vh * 2;
-    /* animation: scaleAndMove 10s infinite; */
+.inputContainer {
+    justify-content: start;
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 100%;
 }
-/* 
-@keyframes scaleAndMove {
-    0%, 100% {
-        transform: translateY(60px) translateX(60px) scale(0.9);
-    }
-    50% {
-        transform: translateY(-60px) translateX(60px) scale(1.3);
-    }
-} */
+
+.label {
+    color: #121212;
+    font-size: 0.9em;
+    font-weight: 600;
+}
+
+.input {
+    color: #121212;
+    font-size: 1em;
+    background-color: #F5F5F5;
+    border: 1px solid #CBCED6;
+    padding: 1em;
+    border-radius: 8px;
+    width: 100%;
+}
 
 @media (max-width: 768px) {
     .container {

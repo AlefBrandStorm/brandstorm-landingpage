@@ -16,30 +16,30 @@ const Footer = () => {
       <p style={{fontWeight: 500}}>© 2024 BrandStorm.</p>
 
       <div style={{ justifyContent: 'space-evenly', alignItems: 'center', display: 'flex', gap: 24, flexDirection: 'row' }}>
-        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+        {/* <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
           <Image
             src="/facebook.svg"
             width={32}
             height={32}
             alt="logo"
           />
-        </a>
-        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+        </a> */}
+        <a href="https://www.instagram.com/brandstorm.design/" target="_blank" rel="noopener noreferrer">
           <Image
             src="/instagram.svg"
             width={32}
             height={32}
-            alt="logo"
+            alt="instagram"
           />
         </a>
-        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+        {/* <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
           <Image
             src="/linkedin.svg"
             width={32}
             height={32}
             alt="logo"
           />
-        </a>
+        </a> */}
       </div>
     </footer>
   );
