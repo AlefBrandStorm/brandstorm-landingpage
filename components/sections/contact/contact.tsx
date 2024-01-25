@@ -51,8 +51,6 @@ const Inputs = [
         placeholder: 'Digite aqui sua mensagem...',
         isRequired: false,
         maxLength: 40,
-        type: 'textarea
-        '
     },
 ]
 
